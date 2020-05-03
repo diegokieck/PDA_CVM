@@ -10,9 +10,11 @@ Psycopg2
 ## Usage
 
 When run retrieves data from REPOSITORY url. 
-For csv file in the remote repository, the program checks if there is a local copy and if the local copy is up to date. 
-The local_files.txt file keeps track of local files and version.
+For csv file in the remote repository, the program checks if the local copy is updated. If it's not, the program downloads the updated version.
 
+The local_files.txt file keeps track of local files and version. 
+
+Local files are stored in Tabelas_locais Folder.
 ## To-do 
 
 * Create Postgres Database and Schema
